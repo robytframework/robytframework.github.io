@@ -1,0 +1,17 @@
+#image-header {
+	background: url(img/imgindex.jpg) repeat;
+	height: 1px;
+}
+
+#text-header {
+	margin-top: 10em;
+}
+
+#text-header h1 {
+	font-family: font_titulo;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	color: #000;
+	font-size: 300px;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
