@@ -3,6 +3,10 @@
 	src: url(fonts/Slash.ttf);
 }
 
+.tittle{
+	font-family: font_tittle;
+}
+
 body {
     padding: 30px;
 }
