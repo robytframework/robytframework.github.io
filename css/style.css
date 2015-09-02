@@ -13,7 +13,7 @@ body {
 }
 
 #text-header {
-	margin-top: 5em;
+	margin-top: 4em;
 }
 
 #text-header h1 {
@@ -21,6 +21,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	color: #fff;
-	font-size: 150px;
+	font-size: 120px;
 	text-shadow: 1px 1px 1px #CCCCCC;
 }
