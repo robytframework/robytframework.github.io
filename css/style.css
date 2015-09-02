@@ -1,3 +1,7 @@
+body {
+    padding: 30px;
+}
+
 #image-header {
 	background: url(img/land.jpg) repeat;
 	height: 1px;
