@@ -14,6 +14,7 @@ body {
 
 #text-header {
 	margin-top: 4em;
+	text-align: center;
 }
 
 #text-header h1 {
@@ -23,5 +24,5 @@ body {
 	color: #fff;
 	font-size: 120px;
 	text-shadow: 1px 1px 1px #CCCCCC;
-	text-align: center;
+	
 }
