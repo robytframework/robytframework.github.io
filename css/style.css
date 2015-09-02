@@ -39,4 +39,9 @@ body {
 
 .simplemenu .tittle{
 	font-size: 35px;
+	color: #FFF;
+}
+
+.simplemenu nav{
+	margin-top: 15px;
 }
