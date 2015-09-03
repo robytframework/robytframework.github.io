@@ -3,8 +3,17 @@
 	src: url(fonts/Slash.ttf);
 }
 
+@font-face {
+	font-family: font_text;
+	src: url(fonts/Hind-Medium.ttf);
+}
+
 .tittle{
 	font-family: font_tittle;
+}
+
+.text{
+	font-family: font_text;
 }
 
 body {
@@ -33,15 +42,24 @@ body {
 }
 
 .simplemenu{
-	background-color: darkslategrey;
+	background-color: rgba(31, 31, 31, 0.93);
 	color: #FFF;
 }
 
 .simplemenu .tittle{
-	font-size: 35px;
+	font-size: 40px;
 	color: #FFF;
+	font-weight: 100;
 }
 
-.simplemenu nav{
-	margin-top: 15px;
+.menuoptions{
+	float: right !important;
+	position: relative;
+	top: 14px;
+}
+
+.simplemenu .menuoptions>a{
+	color: #FFF;
+	margin-right: 45px;
+	font-size: 22px;
 }
