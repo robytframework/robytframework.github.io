@@ -72,3 +72,7 @@ body {
 #section1 img{	
 	width: 550px;
 }
+
+#section1 h2{
+	margin-top: 20px !important;
+}
