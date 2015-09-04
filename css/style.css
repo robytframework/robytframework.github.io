@@ -13,7 +13,7 @@
 }
 
 .text{
-	font-family: font_text;
+	font-family: font_text !important;
 }
 
 body {
