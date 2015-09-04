@@ -102,6 +102,93 @@ i {
 }
 
 
+/************************************************CARDS*********************************************/
+
+.cardbassic {
+	border: none;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	padding: 15px !important;
+}
+
+.cardbassic img {
+	width: 100%;
+}
+
+.img-cardbassic::after {
+	content: " ";
+	border: solid 1px #333333;
+	display: block;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.cardbassic .butn {
+	margin-top: 10px !important;
+}
+
+.cardcircle {
+	border: none;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	padding: 40px !important;
+}
+
+.img-cardcircle {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.img-cardcircle img {
+	width: 10em;
+	border-radius: 200px;
+	height: 10em;
+	z-index: 999999;
+	position: relative;
+}
+
+.img-cardcircle::before {
+	content: " ";
+	border: solid 1.5px #333333;
+	display: block;
+	width: 90%;
+	position: relative;
+	top: 70px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.multicard {
+	border: none;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	padding: 0px !important;
+	background-color: #F0F0F0;
+}
+
+.multicard .backmulticard {
+	background-image: url(1.jpg);
+	background-size: cover;
+	padding: 20px;
+	padding-top: 34px;
+	min-height: 100px;
+	color: #FFF;
+	height: 40px;
+}
+
+.multicard .backmulticard>b {
+	font-size: 26px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.multicard .cardbassic{
+	border: none;
+	background: #FFF;
+}
+
+.multicard .img-cardcircle{
+	border: none;
+	background: #FFF;
+}
+
+
 /*******************************************CLASSES KOL-*******************************************/
 
 .kolbig {
