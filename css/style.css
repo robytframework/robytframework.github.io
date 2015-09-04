@@ -63,3 +63,12 @@ body {
 	margin-right: 45px;
 	font-size: 22px;
 }
+
+#section1{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+#section1 img{	
+	width: 40%;
+}
