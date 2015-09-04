@@ -8,16 +8,16 @@
 	src: url(fonts/Hind-Medium.ttf);
 }
 
-.tittle{
+.tittle {
 	font-family: font_tittle;
 }
 
-.text{
+.text {
 	font-family: font_text !important;
 }
 
 body {
-    padding: 15px;
+	padding: 15px;
 }
 
 #image-header {
@@ -38,41 +38,44 @@ body {
 	font-size: 120px;
 	text-shadow: 1px 1px 1px #CCCCCC;
 	margin-bottom: 0.3em;
-	
 }
 
-.simplemenu{
+.simplemenu {
 	background-color: rgba(31, 31, 31, 0.93);
 	color: #FFF;
 }
 
-.simplemenu .tittle{
+.simplemenu .tittle {
 	font-size: 40px;
 	color: #FFF;
 	font-weight: 100;
 }
 
-.menuoptions{
+.menuoptions {
 	float: right !important;
 	position: relative;
 	top: 14px;
 }
 
-.simplemenu .menuoptions>a{
+.simplemenu .menuoptions>a {
 	color: #FFF;
 	margin-right: 45px;
 	font-size: 22px;
 }
 
-#section1{
+#section1 {
 	margin-top: 8em;
 	margin-bottom: 8em;
 }
 
-#section1 img{	
+#section1 img {
 	width: 550px;
 }
 
-#section1 h2{
+#section1 h2 {
 	margin-top: 45px !important;
+}
+
+#section1 article>p {
+	font-size: 20px;
 }
