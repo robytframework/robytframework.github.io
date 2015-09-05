@@ -48,7 +48,7 @@ body {
 }
 
 .textintro {
-	padding: 80px 9% 0px;
+	padding: 100px 9% 0px;
 }
 
 .textintro h1 {
@@ -75,15 +75,6 @@ body {
 	color: #4E4D4D;
 }
 
-.discovermore{
-	margin-top: 120px !important;
-}
-
-.discovermore .fa{
-	font-size: 25px !important;
-	cursor: pointer;
-}
-
 .section1index {
 	background-color: #0099B7;
 	text-rendering: optimizeLegibility;
@@ -101,4 +92,19 @@ body {
 	line-height: 70px;
 	margin-bottom: 1.66667%;
 	margin-top: 0;
+}
+
+#specialunderline::after{
+	content: " ";
+	border: solid 0px #B33A4A;
+	display: block;
+	width: 0px;
+	/* margin: 20px auto; */
+	transition: all 0.5s;
+	margin-bottom: -107px;
+}
+
+#specialunderline:hover::after{
+	border: solid 2px #B33A4A;
+	width: 900px;
 }
