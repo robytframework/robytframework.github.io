@@ -114,7 +114,9 @@ body {
 
 .thingsdo article>.news{
 	width: 280px;
-	background-color: aquamarine;
-	padding: 2px;
+	border-bottom: 8px solid #B33A4A;
+	padding-bottom: 0px;
+	padding: 0px !important;
+	cursor: pointer;
 }
     
