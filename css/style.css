@@ -48,7 +48,7 @@ body {
 }
 
 .textintro {
-	padding: 90px 9% 50px;
+	padding: 60px 9% 50px;
 }
 
 .textintro h1 {
@@ -73,4 +73,25 @@ body {
 
 .textintro p>a {
 	color: #4E4D4D;
+}
+
+.section1index {
+	background-color: #0099B7;
+	text-rendering: optimizeLegibility;
+	padding: 20px;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+.sectionindex:hover>a{
+	text-decoration: underline;
+}
+
+.section1index header>h2 {
+	color: #FFF;
+	font-weight: bolder;
+	font-size: 45px;
+	line-height: 70px;
+	margin-bottom: 1.66667%;
+	margin-top: 0;
 }
