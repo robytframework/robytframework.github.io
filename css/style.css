@@ -94,7 +94,7 @@ body {
 }
 
 .thingsdo {
-	margin-top: 60px;
+	margin-top: 80px;
 }
 
 .thingsdo header {}
@@ -103,3 +103,18 @@ body {
 	font-size: 25px;
 	margin: 0px;
 }
+
+.thingsdo header>h2::after {
+    content: " ";
+    border: solid 1px #C4C4C4;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.thingsdo article>.news{
+	width: 280px;
+	background-color: aquamarine;
+	padding: 2px;
+}
+    
