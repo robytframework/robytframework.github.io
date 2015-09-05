@@ -119,6 +119,10 @@ body {
 	padding: 0px !important;
 	cursor: pointer;
 	transition: 0.75s;
+	line-height: 24px;
+	font-size: 16px;
+	color: #303030;
+	margin-top: 10px;
 }
 
 .thingsdo .padding {
@@ -135,21 +139,12 @@ body {
 
 .titlenew {
 	font-size: 20px;
+	margin-bottom: 15px !important;
+	display: block;
 }
 
-.textnew {
-	line-height: 24px;
-	font-size: 16px;
-	color: #303030;
-	margin-top: 10px;
-}
-
-.thingsdo article>.news:hover {
+.news:hover {
 	background-color: #2c343b;
 	color: #FFF !important;
 	border-bottom: 18px solid #B33A4A;
-}
-
-.news:hover + .textnew {
-	color: #FFF !important;
 }
