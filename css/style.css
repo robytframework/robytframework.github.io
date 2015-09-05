@@ -20,34 +20,17 @@ body {
 	padding: 15px;
 }
 
-#image-header {
-	background: url(img/land.png) repeat;
-	height: 1px;
-}
-
-#text-header {
-	margin-top: 10em;
-	text-align: center;
-}
-
-#text-header h1 {
-	font-family: font_tittle;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	color: #fff;
-	font-size: 120px;
-	text-shadow: 1px 1px 1px #CCCCCC;
-	margin-bottom: 0.3em;
-}
-
 .simplemenu {
-	background-color: rgba(31, 31, 31, 0.93);
-	color: #FFF;
+	background-color: #FFF;
+	color: #000;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-bottom: 1px solid #ccc;
 }
 
 .simplemenu .tittle {
 	font-size: 40px;
-	color: #FFF;
+	color: #000;
 	font-weight: 100;
 }
 
@@ -58,7 +41,36 @@ body {
 }
 
 .simplemenu .menuoptions>a {
-	color: #FFF;
+	color: #000;
 	margin-right: 45px;
+	font-size: 20px;
+	font-family: font_text !important;
+}
+
+.textintro {
+	padding: 90px 9% 50px;
+}
+
+.textintro h1 {
+	line-height: 120px;
+	font-size: 90px;
+	margin: 0;
+	text-align: left;
+	text-rendering: optimizeLegibility;
+}
+
+.textintro h1>a {
+	color: #B33A4A;
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+.textintro p {
 	font-size: 22px;
+	margin-top: 30px;
+	color: #4E4D4D;
+}
+
+.textintro p>a {
+	color: #4E4D4D;
 }
