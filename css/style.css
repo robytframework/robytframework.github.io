@@ -118,5 +118,39 @@ body {
 	padding-bottom: 0px;
 	padding: 0px !important;
 	cursor: pointer;
+	transition: 0.75s;
+}
+
+.thingsdo .padding{
+	padding: 20px !important;
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+}
+
+.thingsdo .fa{
+	font-size: 45px;
+	margin-bottom: 15px;
+	color: #ccc;
+}
+
+.titlenew{
+	font-size: 20px;
+}
+
+.textnew{
+	line-height: 24px;
+	font-size: 16px;
+	color: #303030;
+	margin-top: 10px;
+}
+
+.thingsdo article>.news:hover{
+	background-color: #2c343b;
+	color: #FFF !important;
+	border-bottom: 18px solid #B33A4A;
+}
+
+.thingsdo article>.news:hover + .textnew{
+	color: #FFF !important;
 }
     
