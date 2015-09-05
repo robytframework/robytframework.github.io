@@ -84,10 +84,6 @@ body {
 	padding-bottom: 40px;
 }
 
-.sectionindex:hover>a{
-	text-decoration: underline;
-}
-
 .section1index header>h2 {
 	color: #FFF;
 	font-weight: bolder;
