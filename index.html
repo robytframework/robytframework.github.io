@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/robyt2.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/animation.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/functions.js"></script>
@@ -16,33 +17,54 @@
 
 <body>
 	<header class="kolbig simplemenu">
-		<nav class="kol-90 centerkol">
+		<nav class="kol-90 centerkol" id="menunoresponsive">
 			<a href="index.html" class="tittle">RF</a>
 			<div class="menuoptions text">
-				<a href="#">Explore</a>
+				<a href="explore.html">Explore</a>
 				<a href="#">Tutorial</a>
 				<a href="#">Application</a>
-				<a href="#">Blog</a> 
+				<a href="#">Blog</a>
 			</div>
 		</nav>
+		<nav id="menuresponsive">
+			<a href="index.html" class="tittle">RF</a>
+			<b class="fa fa-bars rayas"></b>
+		</nav>
 	</header>
-	<section class="kolbig">
+	<section class="kolbig" id="nonenext">
 		<header class="kol-90 centerkol textintro">
-			<h1 class="text">
+			<h1 class="text animated">
 				Robyt Framework <br>
 				<a href="#" id="specialunderline">design &amp; development</a><br>
 				<span>web framework.</span>
 			</h1>
-			<p class="text"><a href="#">Dowload here</a> the new Beta 2.0 or <a href="#">discover more about us <b class="fa fa-hand-o-down"></b></a></p>
+			<p class="text animated"><a href="#">Dowload here</a> the new Beta 2.0 or <a href="#" onclick="discall();">discover more about us <b class="fa fa-hand-o-down"></b></a></p>
 		</header>
 	</section>
-	<section class="kolbig section1index">
-		<header class="kol-80 centerkol text-center padding">
-			<h2 class="text">New ways to create websites with grid system basic<br> and the new grid system flex</h2>
-			<br>
-			<br>
-			<p><a href="#" class="butn butn-classic butn-large">Explore &amp; learn</a></p>
+	<section class="kolbig thingsframe padding">
+		<header>
+			<h2 class="text animated">all that is amazing</h2>
 		</header>
+		<div class="kolflex flexdir-ltr flex-multi-ltr flex-around">
+			<article class="kol-2" id="arti1">
+				<div class="kol-90 centerkol" id="card1"></div>
+			</article>
+			<article class="kol-4" id="arti2">
+				<div class="kol-90 centerkol" id="card2"></div>
+			</article>
+			<article class="kol-4" id="arti3">
+				<div class="kol-90 centerkol" id="card3"></div>
+			</article>
+			<article class="kol-66" id="arti4">
+				<div class="kol-90 centerkol" id="card4"></div>
+			</article>
+			<article class="kol-3" id="arti5">
+				<div class="kol-90 centerkol" id="card5"></div>
+			</article>
+			<article class="kol-2" id="arti6">
+				<div class="kol-90 centerkol" id="card6"></div>
+			</article>
+		</div>
 	</section>
 	<script src="js/modernizr-2.8.3.min.js"></script>
 </body>
