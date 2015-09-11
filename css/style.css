@@ -28,7 +28,17 @@ body {
 }
 
 footer{
-	border-top: 1.5pc solid #ccc;
+	border-top: 1.5px solid #ccc;
+	margin-top: 5em !important;
+	padding-left: 10% !important;
+    padding-right: 10% !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+
+footer p{
+	font-size: 20px;
+	line-height: 34px;
 }
 
 .simplemenu {
