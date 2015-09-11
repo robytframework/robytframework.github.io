@@ -27,6 +27,10 @@ body {
 	padding: 15px;
 }
 
+footer{
+	border-top: 1.5pc solid #ccc;
+}
+
 .simplemenu {
 	background-color: #FFF;
 	color: #000;
