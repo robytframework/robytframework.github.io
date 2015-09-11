@@ -63,7 +63,7 @@ body {
 	padding: 100px 9% 0px;
 	transition: 0.3s;
 }
- 
+
 .textintro h1 {
 	line-height: 120px;
 	font-size: 90px;
@@ -88,6 +88,98 @@ body {
 	color: #4E4D4D;
 }
 
+.tittlesection {
+	padding-top: 40px;
+	padding-left: 0px !important;
+}
+
+.contentoptions {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.contentoptions .kol-1 {
+	padding: 0px !important;
+	margin-top: 20px !important;
+}
+
+.contentoptions aside {
+	width: 24%;
+	padding-left: 0px !important;
+	border-right: 2px solid #ccc;
+}
+
+.contentoptions aside>ul {
+	list-style: none;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.contentoptions aside>ul>li {
+	margin-left: 20px;
+}
+
+.contentexplore {
+	padding-left: 40px !important;
+}
+
+.contentexplore h3 {
+	margin-top: 0px !important;
+	font-weight: bolder;
+}
+
+.contentexplore h4 {
+	font-weight: bolder;
+}
+
+.contentexplore p {
+	font-size: 18px;
+}
+
+.tittlesection h2 {
+	font-size: 45px;
+}
+
+.tittlesection h2::after {
+	content: " ";
+	border: solid 1.5px #000;
+	display: block;
+	width: 300px;
+	margin-top: 10px;
+}
+
+.box {
+	padding: 15px !important;
+	background-color: #F3B9C1;
+	text-align: center;
+}
+
+.line {
+	border-right: 1px solid #292929;
+}
+
+.codeexplore {
+	border: 1px solid #ccc;
+	padding: 20px !important;
+	width: 100%;
+	background: transparent;
+	margin-top: 20px;
+}
+
+.flex-item {
+	background: tomato;
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	line-height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	font-family: font_text !important
+}
+
 #menuresponsive {
 	display: none;
 }
@@ -105,6 +197,10 @@ body {
 #specialunderline:hover::after {
 	border: solid 2px #B33A4A;
 	width: 900px;
+}
+
+#first {
+	padding: 15px !important;
 }
 
 @media (max-width: 1400px) {
