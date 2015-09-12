@@ -163,7 +163,7 @@ footer p{
 }
 
 .box {
-	padding: 15px !important;
+	padding: 12px !important;
 	background-color: #F3B9C1;
 	text-align: center;
 }
@@ -214,7 +214,7 @@ footer p{
 }
 
 #first {
-	padding: 15px !important;
+	padding: 12px !important;
 }
 
 @media (max-width: 1400px) {
