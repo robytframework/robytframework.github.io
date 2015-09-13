@@ -162,6 +162,27 @@ footer p{
 	margin-top: 10px;
 }
 
+.codeexplore p{
+	font-size: 15px !important;
+	line-height: 28px;
+}
+
+.codeexplore .codecomment{
+	color: #989898;
+}
+
+.codeexplore .separation1{
+	padding-left: 30px;
+}
+
+.codeexplore .separation2{
+	padding-left: 60px;
+}
+
+.codeexplore .separation3{
+	padding-left: 90px;
+}
+
 .box {
 	padding: 12px !important;
 	background-color: #F3B9C1;
