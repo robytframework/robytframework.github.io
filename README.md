@@ -15,7 +15,28 @@ Install Robyt Framework (HTML):
 </head>
 ```
 ##Slow Start (for developers)
+The way of working of the styles are based on different classes.
+The main classes are the grid system ordering the structure of the website.
 
+```bash
+<head>
+	<!-- SIMPLE EXAMPLE -->
+	<body>
+		<!-- Container kolbig -->
+		<section class="kolbig">
+			<!-- Container kol-1/100% -->
+			<header class="kol-1">
+				<!-- heading h1/text center -->
+				<h1 class="text-center">Hello world</h1>
+			</header>
+			<!-- Container kol-2/50%/center on display -->
+			<article class="kol-2 centerkol">
+				<p>lorem ipsum</p>
+			</article>
+		</section>
+	</body>
+</head>
+```
 
 ## Robyt Framework app
 The framework will be supported by a desktop application, developed with language web (HTML5, CS3 and JavaScript), which allow a user to little technical knowledge to create web pages easily. 
