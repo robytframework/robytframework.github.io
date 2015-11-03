@@ -14,6 +14,8 @@ Install Robyt Framework (HTML):
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="screen" />
 </head>
 ```
+##Slow Start (for developers)
+
 
 ## Robyt Framework app
 The framework will be supported by a desktop application, developed with language web (HTML5, CS3 and JavaScript), which allow a user to little technical knowledge to create web pages easily. 
