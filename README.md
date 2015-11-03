@@ -19,7 +19,6 @@ The way of working of the styles are based on different classes.
 The main classes are the grid system ordering the structure of the website.
 
 ```bash
-<head>
 	<!-- SIMPLE EXAMPLE -->
 	<body>
 		<!-- Container kolbig -->
@@ -35,7 +34,6 @@ The main classes are the grid system ordering the structure of the website.
 			</article>
 		</section>
 	</body>
-</head>
 ```
 
 ## Robyt Framework app
