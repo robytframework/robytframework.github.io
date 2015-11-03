@@ -1,47 +1,498 @@
-<!doctype html>
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/robyt2.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/animation.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="robyt2.css" media="screen" />
 	<title>Robyt 2.0</title>
+	<style>
+		.box {
+			background-color: aqua;
+			padding: 10px !important;
+			text-align: center;
+		}
+		
+		.line {
+			border-right: 2px solid #ccc;
+		}
+		
+		h1,
+		h2 {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		
+		.flex-item {
+			background: tomato;
+			padding: 5px;
+			width: 200px;
+			height: 150px;
+			margin-top: 10px;
+			line-height: 150px;
+			color: white;
+			font-weight: bold;
+			font-size: 3em;
+			text-align: center;
+		}
+	</style>
 </head>
 
 <body>
-	<header class="kolbig simplemenu">
-		<nav class="kol-90 centerkol" id="menunoresponsive">
-			<a href="index.html" class="tittle">RF</a>
-			<div class="menuoptions text">
-				<a href="explore.html">Explore</a>
-				<a href="tutorial.html">Tutorial</a>
-				<a href="#">Application</a>
+	<div class="kolbig">
+		<div class="box kol-1">Kol-1 = 100%</div>
+		<div class="box kol-90 line">Kol-90 = 90%</div>
+		<div class="box kol-10">Kol-10 = 10%</div>
+		<div class="box kol-80 line">Kol-80 = 80%</div>
+		<div class="box kol-5">Kol-5 = 20%</div>
+		<div class="box kol-75 line">Kol-75 = 75%</div>
+		<div class="box kol-4">Kol-4 = 25%</div>
+		<div class="box kol-66 line">Kol-66 = 66.66%</div>
+		<div class="box kol-3">Kol-3 = 33.33%</div>
+		<div class="box kol-60 line">Kol-60 = 60%</div>
+		<div class="box kol-40">Kol-40 = 40%</div>
+		<div class="box kol-2 line">Kol-2 = 50%</div>
+		<div class="box kol-2">Kol-2 = 50%</div>
+		<div class="box kol-40 line">Kol-40 = 40%</div>
+		<div class="box kol-60">Kol-60 = 60%</div>
+		<div class="kol-3 box line">Kol-3 = 33.33%</div>
+		<div class="kol-3 box line">Kol-3 = 33.33%</div>
+		<div class="kol-3 box">Kol-3 = 33.33%</div>
+		<div class="box kol-4 line">Kol-4 = 25%</div>
+		<div class="box kol-4 line">Kol-4 = 25%</div>
+		<div class="box kol-4 line">Kol-4 = 25%</div>
+		<div class="box kol-4">Kol-4 = 25%</div>
+		<div class="box kol-5 line">Kol-5 = 20%</div>
+		<div class="box kol-5 line">Kol-5 = 20%</div>
+		<div class="box kol-5 line">Kol-5 = 20%</div>
+		<div class="box kol-5 line">Kol-5 = 20%</div>
+		<div class="box kol-5">Kol-5 = 20%</div>
+		<div class="box kol-6 line">Kol-6 = 16.66%</div>
+		<div class="box kol-6 line">Kol-6 = 16.66%</div>
+		<div class="box kol-6 line">Kol-6 = 16.66%</div>
+		<div class="box kol-6 line">Kol-6 = 16.66%</div>
+		<div class="box kol-6 line">Kol-6 = 16.66%</div>
+		<div class="box kol-6">Kol-6 = 16.66%</div>
+		<div class="kol-7 box line">Kol-7 = 14.28%</div>
+		<div class="kol-7 box line">Kol-7 = 14.28%</div>
+		<div class="kol-7 box line">Kol-7 = 14.28%</div>
+		<div class="kol-7 box line">Kol-7 = 14.28%</div>
+		<div class="kol-7 box line">Kol-7 = 14.28%</div>
+		<div class="kol-7 box line">Kol-7 = 14.28%</div>
+		<div class="kol-7 box line">Kol-7 = 14.28%</div>
+		<div class="kol-8 box line">Kol-8 = 12.5%%</div>
+		<div class="kol-8 box line">Kol-8 = 12.5%%</div>
+		<div class="kol-8 box line">Kol-8 = 12.5%%</div>
+		<div class="kol-8 box line">Kol-8 = 12.5%%</div>
+		<div class="kol-8 box line">Kol-8 = 12.5%</div>
+		<div class="kol-8 box line">Kol-8 = 12.5%</div>
+		<div class="kol-8 box line">Kol-8 = 12.5%</div>
+		<div class="kol-8 box">Kol-8 = 12.5%%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box line">Kol-9 = 11.11%</div>
+		<div class="kol-9 box">Kol-9 = 11.11%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box line">Kol-10 = 10%</div>
+		<div class="kol-10 box">Kol-10 = 10%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box line">Kol-11 = 9%</div>
+		<div class="kol-11 box">Kol-11 = 9%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box line">Kol-12 = 8.33%</div>
+		<div class="kol-12 box">Kol-12 = 8.33%</div>
+	</div>
+	<h1>Bloques centrados con clase ".centerkol"</h1>
+	<div class="kolbig">
+		<div class="kol-1 box centerkol">Kol-1 centrado</div>
+		<div class="kol-90 box centerkol">Kol-90 centrado</div>
+		<div class="kol-80 box centerkol">Kol-80 centrado</div>
+		<div class="kol-75 box centerkol">Kol-75 centrado</div>
+		<div class="kol-66 box centerkol">Kol-66 centrado</div>
+		<div class="kol-60 box centerkol">Kol-60 centrado</div>
+		<div class="kol-2 box centerkol">Kol-2 centrado</div>
+		<div class="kol-40 box centerkol">Kol-40 centrado</div>
+		<div class="kol-3 box centerkol">Kol-3 centrado</div>
+		<div class="kol-4 box centerkol">Kol-4 centrado</div>
+		<div class="kol-5 box centerkol">Kol-5 centrado</div>
+		<div class="kol-6 box centerkol">Kol-6 centrado</div>
+		<div class="kol-7 box centerkol">Kol-7 centrado</div>
+		<div class="kol-8 box centerkol">Kol-8 centrado</div>
+		<div class="kol-9 box centerkol">Kol-9 centrado</div>
+		<div class="kol-10 box centerkol">Kol-10 centrado</div>
+		<div class="kol-11 box centerkol">Kol-11 centrado</div>
+		<div class="kol-12 box centerkol">Kol-12 centrado</div>
+	</div>
+	<h1>Bloques desplazados con clase ".move-""</h1>
+	<div class="kolbig">
+		<div class="kol-75 box move-25">Kol-75 move-25 </div>
+		<div class="kol-90 box move-10">Kol-90 move-10</div>
+		<div class="kol-4 line box">Kol-4</div>
+		<div class="kol-4 box">Kol-4</div>
+		<div class="kol-4 box move-25">Kol-4 move-25</div>
+		<div class="kol-11 box line">Kol-11</div>
+		<div class="kol-11 box line">Kol-11</div>
+		<div class="kol-11 box line move-9">Kol-11 move-9</div>
+		<div class="kol-11 box line move-9">Kol-11 move-9</div>
+		<div class="kol-11 box line move-9">Kol-11 move-9</div>
+		<div class="kol-11 box line">Kol-11</div>
+		<div class="kol-11 box line move-9">Kol-11 move-9</div>
+		<div class="kol-2 box">Kol-2</div>
+		<div class="kol-4 move-25 box">Kol-4 move-25</div>
+	</div>
+	<h1>Bloques con posicion derecha con clase ".koltoright"</h1>
+	<div class="kolbig">
+		<div class="kol-75 box koltoright">Kol-75 koltoright </div>
+		<div class="kol-90 box koltoright">Kol-90 koltoright</div>
+		<div class="kol-4 koltoright box">Kol-4 koltoright</div>
+	</div>
+	<h1>New!! System Grid Flex Beta</h1>
 
+	<h2>Ejemplo, grid flex, de izquierda a derecha, multi, contenido separado around</h2>
+	<div class="kolflex flexdir-ltr flex-multi-ltr flex-around">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+	<h2>Ejemplo, grid flex, de izquierda a derecha, multi, contenido separado entree ellos</h2>
+	<div class="kolflex flexdir-ltr flex-multi-ltr flex-btw">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+	<h2>Ejemplo, grid flex, de derecha a izquierda, una linea, contenido separado around</h2>
+	<div class="kolflex flexdir-rtl flex-around ">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+	<h2>Ejemplo, grid flex, de arriba abajo, una linea, contenido separado around</h2>
+	<div class="kolflex flexdir-ttb ">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+	<h2>Ejemplo, grid flex, de abajo arriba, una linea, contenido separado around</h2>
+	<div class="kolflex flexdir-btt ">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+	<h2>Ejemplo, grid flex, de izquierda a derecha, multilinea, contenido centrado</h2>
+	<div class="kolflex flexdir-ltr flex-multi-ltr flex-center  ">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+
+	<h2>Ejemplo, grid flex, de izquierda a derecha,solo linea, contenido centrado</h2>
+	<div class="kolflex flex-btw">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+		<div class="flex-item">6</div>
+		<div class="flex-item">7</div>
+		<div class="flex-item">8</div>
+		<div class="flex-item">9</div>
+	</div>
+
+
+	<h2>Ejemplo, grid flex, de izquierda a derecha,multi linea, separacion entre ellos</h2>
+	<div class="kolflex flex-multi-ltr flex-btw">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+		<div class="flex-item">6</div>
+		<div class="flex-item">7</div>
+		<div class="flex-item">8</div>
+		<div class="flex-item">9</div>
+	</div>
+
+	<h2>El div tiene un tamaño de 40em se centra todo en el centro</h2>
+	<div class="kolflex flex-multi-ltr flex-around flex-alg-center" style="height:40em; background-color:blue">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+
+	<h2>El div tiene un tamaño de 40em se centra todo en el final</h2>
+	<div class="kolflex flex-multi-ltr flex-around flex-alg-end" style="height:40em; background-color:cyan">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+	<h2>El div tiene un tamaño de 40em se centra todo en el final</h2>
+	<div class="kolflex flex-multi-ltr flex-around flex-alg-base" style="height:40em; background-color:pink">
+		<div class="flex-item">1</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3</div>
+		<div class="flex-item">4</div>
+		<div class="flex-item">5</div>
+	</div>
+
+
+	<h2>PRUEBA DE FLEX CON KOL .. ... </h2>
+	<div class="kolflex flex-multi-ltr flex-around flex-alg-base" style="height:40em; background-color:pink">
+		<div class="kol-2 box">1</div>
+		<div class="kol-3 box">2</div>
+		<div class="kol-4 box">3</div>
+		<div class="kol-60 box">4</div>
+		<div class="kol-1 box">5</div>
+	</div>
+
+	<h1>Botones 2.0</h1>
+	<div class="kolflex flex-multi-ltr flex-around padding" style="margin-bottom:30px;">
+		<a href="#" class="butn butn-classic">Button Basic</a>
+		<a href="#" class="butn butn-red">Button red</a>
+		<a href="#" class="butn butn-green">Button green</a>
+		<a href="#" class="butn butn-blue">Button blue</a>
+		<a href="#" class="butn butn-orange">Button orange</a>
+		<a href="#" class="butn butn-large butn-classic">Button large</a>
+		<a href="#" class="butn butn-small butn-classic">Button small</a>
+	</div>
+
+	<h1>Botones circulares NEW!!</h1>
+	<div class="kolflex flex-multi-ltr flex-around padding" style="margin-bottom:30px;">
+		<a href="#" class="butn-circle butn-classic">X</a>
+		<a href="#" class="butn-circle butn-green">X</a>
+		<a href="#" class="butn-circle butn-red">X</a>
+		<a href="#" class="butn-circle butn-blue">X</a>
+		<a href="#" class="butn-circle butn-orange">X</a>
+
+	</div>
+
+	<h1>Inputs 2.0</h1>
+	<div class="kolbig" style="margin-bottom:30px;">
+		<div class="kol-60 padding">
+			<input type="text" class="forminput" placeholder="Input .forminput" />
+
+			<select class="forminput" style="margin-top:15px;">
+				<option>Hola</option>
+				<option>Hola</option>
+				<option>Hola</option>
+			</select>
+
+			<div class="groupinputs" style="margin-top:15px;">
+				<div class="groupinputs-add">$</div>
+				<input type="text" class="forminput" placeholder="Input .forminput" />
+				<div class="groupinputs-add">$</div>
 			</div>
-		</nav>
-		<nav id="menuresponsive">
-			<a href="index.html" class="tittle">RF</a>
-			<b class="fa fa-bars rayas"></b>
-		</nav>
-	</header>
-	<section class="kolbig" id="nonenext">
-		<header class="kol-90 centerkol textintro">
-			<h1 class="text animated">
-				Robyt Framework <br>
-				<a href="explore.html" id="specialunderline">design &amp; development</a><br>
-				<span>web framework.</span>
-			</h1>
-			<p class="text animated"><a href="tutorial.html">Dowload here</a> the new Beta 2.0 or <a href="#" onclick="discall();">discover more about us <b class="fa fa-hand-o-down"></b></a></p>
-		</header>
-	</section>
-	<script src="js/modernizr-2.8.3.min.js"></script>
-	<script src="js/jquery-1.11.2.min.js"></script>
-	<script src="js/functions.js"></script>
+
+			<div class="groupinputs" style="margin-top:15px;">
+				<div class="groupinputs-add">$</div>
+				<input type="text" class="forminput" placeholder="Input .forminput" />
+			</div>
+		</div>
+	</div>
+
+	<h1>Tipos de formularios NEW!!</h1>
+	<div class="kolbig padding" style="margin-bottom:30px;">
+		<div class="kol-3 padding centerkol" style="border:1px solid #ccc;">
+			<form class="formbasic">
+				<p>Name</p>
+				<input type="text" class="forminput" placeholder="ex, Hector" />
+				<p>Last Name</p>
+				<input type="text" class="forminput" placeholder="ex, Saez" />
+				<p>Email</p>
+				<input type="text" class="forminput" placeholder="ex, name@gmail.com" />
+				<p>
+					<input type="submit" class="butn butn-blue" value="submit" />
+				</p>
+			</form>
+		</div>
+		<br>
+		<br>
+		<div class="kol-3 padding centerkol" style="border:1px solid #ccc;">
+			<form class="formlines">
+				<input type="text" class="forminput" placeholder="ex, Hector" />
+				<input type="text" class="forminput" placeholder="ex, Saez" />
+				<input type="text" class="forminput" placeholder="ex, name@gmail.com" />
+				<p>
+					<input type="submit" class="butn butn-blue" value="submit" />
+				</p>
+			</form>
+		</div>
+		<br>
+		<br>
+		<div class="kol-3 padding centerkol" style="border:1px solid #ccc;">
+			<form class="formlines-label">
+				<div class="groupinputs" style="margin-top:15px;">
+					<div class="groupinputs-add">Name</div>
+					<input type="text" class="forminput" placeholder="ex, Hector" />
+				</div>
+				<div class="groupinputs" style="margin-top:15px;">
+					<div class="groupinputs-add">Last Name</div>
+					<input type="text" class="forminput" placeholder="ex, Saez" />
+				</div>
+				<div class="groupinputs" style="margin-top:15px;">
+					<div class="groupinputs-add">Email</div>
+					<input type="text" class="forminput" placeholder="ex, name@gmail.com" />
+				</div>
+				<p>
+					<input type="submit" class="butn butn-blue" value="submit" />
+				</p>
+			</form>
+		</div>
+		<br>
+		<br>
+		<div class="kol-3 padding centerkol" style="border:1px solid #ccc;">
+			<form class="formbox">
+				<input type="text" class="forminput" placeholder="ex, Hector" />
+				<input type="text" class="forminput" placeholder="ex, Saez" />
+				<input type="text" class="forminput" placeholder="ex, name@gmail.com" />
+				<p>
+					<input type="submit" class="butn butn-blue" value="submit" />
+				</p>
+			</form>
+		</div>
+		<br>
+		<br>
+		<div class="kol-3 padding centerkol" style="border:1px solid #ccc;">
+			<form class="formbasic">
+				<p>Name</p>
+				<input type="text" class="forminput" placeholder="ex, Hector" />
+				<p>Last Name</p>
+				<input type="text" class="forminput" placeholder="ex, Saez" />
+				<p>Email</p>
+				<input type="text" class="forminput" placeholder="ex, name@gmail.com" />
+				<p>Country</p>
+				<select class="forminput">
+					<option>
+						Spain
+					</option>
+					<option>
+						Germany
+					</option>
+				</select>
+				<p>
+					<label>
+						<input type="checkbox" name="checkbox" value="value">Male</label>
+				</p>
+				<p>
+					<label>
+						<input type="checkbox" name="checkbox" value="value">Female</label>
+				</p>
+				<p>
+					<input type="submit" class="butn butn-blue" value="submit" />
+				</p>
+			</form>
+		</div>
+	</div>
+
+	<h1>Cabeceras</h1>
+	<div class="kolbig" style="margin-bottom:30px;">
+		<h1>Header 1 <small>small heading</small></h1>
+		<h2>Header 2 <small>small heading</small></h2>
+		<h3>Header 3 <small>small heading</small></h3>
+		<h4>Header 4 <small>small heading</small></h4>
+		<h5>Header 5 <small>small heading</small></h5>
+		<h6>Header 6 <small>small heading</small></h6>
+	</div>
+
+	<h1>Targetas Con titulos Animados y/o imagenes NEW!!</h1>
+	<div class="kolbig" style="margin-bottom:30px;">
+
+		<div class="kol-3 centerkol cardbassic">
+			<div class="img-cardbassic">
+				<img src="1.jpg">
+			</div>
+			<div class="kol-90 centerkol">
+				<p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+				<br>
+				<p class="text-center"><a href="#" class="butn butn-blue butn-large">View More</a></p>
+			</div>
+		</div>
+		<br>
+		<div class="kol-3 centerkol cardcircle">
+			<div class="img-cardcircle">
+				<img src="1.jpg">
+			</div>
+			<div class="kol-90 centerkol">
+				<h4 class="text-center">Paula triskis</h4>
+				<p><b>About me:</b> lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+				<br>
+				<br>
+				<p class="text-center"><a href="#" class="butn butn-blue butn-large">Conect with me</a></p>
+			</div>
+		</div>
+		<br>
+		
+		<div class="kolbig kol-3 centerkol multicard">
+			<div class="backmulticard">
+				<b>Tittle card</b>
+			</div>
+			<div class="kol-1 padding">
+				<div class="kol-90 centerkol cardbassic">
+					<div class="img-cardbassic">
+						<img src="1.jpg">
+					</div>
+					<div class="kol-90 centerkol">
+						<p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+						<br>
+						<p class="text-center"><a href="#" class="butn butn-blue butn-large">View More</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
 </body>
 
 </html>
