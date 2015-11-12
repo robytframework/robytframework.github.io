@@ -48,3 +48,6 @@ The framework will be supported by a desktop application, developed with languag
 This application will allow intuitive actions from composing web pages.
 
 ![Alt text](http://a.fsdn.com/con/app/proj/robytframework/screenshots/Untitled.png "Index app")
+
+You can download the application for Windows, Linux and OSX
+http://sourceforge.net/projects/robytframework/
