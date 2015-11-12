@@ -46,3 +46,5 @@ You can install the framework robyt module in the command console
 ## Robyt Framework app
 The framework will be supported by a desktop application, developed with language web (HTML5, CS3 and JavaScript), which allow a user to little technical knowledge to create web pages easily. 
 This application will allow intuitive actions from composing web pages.
+
+![Alt text](http://a.fsdn.com/con/app/proj/robytframework/screenshots/Untitled.png "Index app")
