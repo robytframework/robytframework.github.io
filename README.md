@@ -49,5 +49,7 @@ This application will allow intuitive actions from composing web pages.
 
 [![Alt text for your video](http://img.youtube.com/vi/1GBJPfIbhKo/0.jpg)](https://www.youtube.com/watch?v=1GBJPfIbhKo)
 
+[![Everything Is AWESOME](http://img.youtube.com/vi/1GBJPfIbhKo/0.jpg)](https://www.youtube.com/watch?v=1GBJPfIbhKo "Everything Is AWESOME")
+
 You can download the application for Windows, Linux and OSX
 http://sourceforge.net/projects/robytframework/
