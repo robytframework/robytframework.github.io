@@ -52,7 +52,7 @@ This application will allow intuitive actions from composing web pages.
 - Edit text
 - Load images and edit them
 - Save projects on a zip
-- 
+
 [![Video robyt app](http://img.youtube.com/vi/1GBJPfIbhKo/0.jpg)](https://www.youtube.com/watch?v=1GBJPfIbhKo)
 
 You can download the application for Windows, Linux and OSX
