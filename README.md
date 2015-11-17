@@ -46,7 +46,13 @@ You can install the framework robyt module in the command console
 ## Robyt Framework app
 The framework will be supported by a desktop application, developed with language web (HTML5, CS3 and JavaScript), which allow a user to little technical knowledge to create web pages easily. 
 This application will allow intuitive actions from composing web pages.
-
+- Create web designs
+- Drag & Drop elements
+- Edit grid system
+- Edit text
+- Load images and edit them
+- Save projects on a zip
+- 
 [![Video robyt app](http://img.youtube.com/vi/1GBJPfIbhKo/0.jpg)](https://www.youtube.com/watch?v=1GBJPfIbhKo)
 
 You can download the application for Windows, Linux and OSX
